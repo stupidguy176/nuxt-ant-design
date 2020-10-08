@@ -36,7 +36,8 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '@/plugins/antd-ui'
+    '@/plugins/antd-ui',
+    { src: '~/plugins/vue-handsontable.js', ssr: false },
   ],
   /*
   ** Auto import components
@@ -58,5 +59,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    vendor: ['handsontable'],
   }
 }

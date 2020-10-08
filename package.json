@@ -9,7 +9,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@handsontable/vue": "^5.0.1",
     "ant-design-vue": "^1.6.4",
+    "handsontable": "^8.1.0",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {}
